@@ -89,7 +89,7 @@
       class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5555"
     >
       <a href="/" class="navbar-brand d-flex align-items-center">
-        <img style="width: 8rem; height: 100%" src="img/avenuelogo.jpeg" />
+        <img style="width: 8rem; height: 100%" src="img/avenuelogo.jpeg" alt="Avenue Lock & Safe Logo" />
       </a>
       <button
         type="button"
@@ -178,9 +178,9 @@
           <!-- Text Content -->
           <div class="col-lg-6">
             <h6 class="text-primary text-uppercase mb-3">Who We Are</h6>
-            <h1 class="display-5 mb-4">
+            <h2 class="display-5 mb-4">
               Over 56 Years Securing Homes & Businesses
-            </h1>
+            </h2>
             <p class="mb-3 text-muted">
               Avenue Lock & Safe provides Ottawa with trusted locksmithing and
               electronic security since 1969. Our expert team ensures safety
@@ -204,7 +204,7 @@
               <img
                 src="img/keys.jpeg"
                 class="img-fluid"
-                alt="About Avenue Lock"
+                alt="Extensive collection of key blanks at Avenue Lock & Safe"
               />
             </div>
           </div>
@@ -217,7 +217,7 @@
       <div class="container">
         <div class="text-center mb-5">
           <h6 class="text-primary text-uppercase">Divisions</h6>
-          <h1 class="display-5">Comprehensive Protection Services</h1>
+          <h2 class="display-5">Comprehensive Protection Services</h2>
         </div>
         <div class="row g-4">
           <!-- Locksmith -->
@@ -284,7 +284,7 @@
       <div class="container">
         <div class="text-center mb-5">
           <h6 class="text-primary text-uppercase">Trusted Since 1969</h6>
-          <h1 class="display-5">Why People Trust Avenue Lock & Safe</h1>
+          <h2 class="display-5">Why People Trust Avenue Lock & Safe</h2>
           <p class="text-muted mx-auto" style="max-width: 700px">
             Proudly securing Ottawa since 1969, Avenue Lock & Safe has built a
             reputation on decades of craftsmanship, reliability, and community
@@ -367,6 +367,7 @@
               <a
                 href="https://www.google.com/maps?q=738+Bank+Street,+Ottawa,+ON+K1S+3V4"
                 target="_blank"
+                rel="noopener noreferrer"
                 class="text-secondary text-decoration-none"
               >
                 738 Bank Street, Ottawa
@@ -385,6 +386,7 @@
                 class="btn btn-square btn-outline-secondary rounded-circle me-2"
                 href="https://www.facebook.com/p/Avenue-Lock-Security-Inc-100067198761171/"
                 target="_blank"
+                rel="noopener noreferrer"
                 ><i class="fab fa-facebook-f"></i
               ></a>
 
@@ -433,6 +435,7 @@
                   margin-top: 1rem;
                 "
                 src="img/Assali logo new.png"
+                alt="Assali Advertising Logo"
               />
               <p>Copyright © 2025 All Rights Reserved.</p>
             </div>
@@ -487,5 +490,52 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Organization", "Locksmith"],
+      "name": "Avenue Lock & Safe",
+      "url": "https://avenuelock.ca/about",
+      "logo": "https://avenuelock.ca/img/avenuelogo.jpeg",
+      "description": "Learn about Avenue Lock & Safe, a trusted Ottawa locksmith since 1969. Experts in residential and commercial lock and security systems, offering comprehensive protection services including locksmithing, electronics, and monitoring.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "738 Bank St",
+        "addressLocality": "Ottawa",
+        "addressRegion": "ON",
+        "postalCode": "K1S 3V4",
+        "addressCountry": "CA"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-613-236-2888",
+        "contactType": "Customer Service",
+        "email": "sales@avenuelock.ca"
+      },
+      "foundingDate": "1969",
+      "sameAs": [
+        "https://www.facebook.com/p/Avenue-Lock-Security-Inc-100067198761171/"
+      ],
+       "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.4038209,
+        "longitude": -75.6915011
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ]
+    }
+    </script>
   </body>
 </html>
