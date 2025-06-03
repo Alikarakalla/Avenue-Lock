@@ -80,7 +80,7 @@
       class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5555"
     >
       <a href="/" class="navbar-brand d-flex align-items-center">
-        <img style="width: 8rem; height: 100%" src="img/avenuelogo.jpeg" />
+        <img style="width: 8rem; height: 100%" src="img/avenuelogo.jpeg" alt="Avenue Lock & Safe Logo" />
       </a>
       <button
         type="button"
@@ -148,7 +148,7 @@
       style="padding-top: 1rem; padding-bottom: 1rem"
     >
       <div class="container" style="padding-top: 1rem; padding-bottom: 1rem">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Contact</h1>
+        <h2 class="display-3 text-white mb-3 animated slideInDown">Contact</h2>
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -352,6 +352,64 @@
     </div>
 
     <!-- Footer End -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ContactPage",
+          "@id": "https://avenuelock.ca/contact#webpage",
+          "url": "https://avenuelock.ca/contact",
+          "name": "Contact Us | Avenue Lock & Safe - Ottawa",
+          "description": "Have questions or need assistance? Contact Avenue Lock & Safe today. We provide fast, reliable locksmith and security support in Ottawa.",
+          "isPartOf": {"@id": "https://avenuelock.ca/"},
+          "mainEntity": {"@id": "https://avenuelock.ca/"}
+        },
+        {
+          "@type": ["Locksmith", "Organization"],
+          "@id": "https://avenuelock.ca/",
+          "name": "Avenue Lock & Safe",
+          "url": "https://avenuelock.ca/contact",
+          "logo": "https://avenuelock.ca/img/avenuelogo.jpeg",
+          "image": "https://avenuelock.ca/img/avenuelogo.jpeg",
+          "telephone": "+1-613-236-2888",
+          "email": "sales@avenuelock.ca",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "738 Bank St",
+            "addressLocality": "Ottawa",
+            "addressRegion": "ON",
+            "postalCode": "K1S 3V4",
+            "addressCountry": "CA"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 45.4038209,
+            "longitude": -75.6915011
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "08:00",
+              "closes": "17:00"
+            }
+          ],
+          "contactPoint": [{
+            "@type": "ContactPoint",
+            "telephone": "+1-613-236-2888",
+            "contactType": "Customer Service",
+            "email": "sales@avenuelock.ca",
+            "areaServed": "Ottawa",
+            "availableLanguage": ["English"]
+          }],
+          "sameAs": ["https://www.facebook.com/p/Avenue-Lock-Security-Inc-100067198761171/"],
+          "mainEntityOfPage": {"@id": "https://avenuelock.ca/contact#webpage"}
+        }
+      ]
+    }
+    </script>
 
     <!-- Back to Top -->
   <a
